@@ -1,20 +1,35 @@
 footer {
     display: flex;
+    position: relative;
     justify-content: center;
     background: black;
-    width: 100%;
+    width: 100vw;
     height: 209px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    left: -100px;
+    @media screen and (max-width: $breakpoint-t) {
+        left: -60px;
+    }
+    @media screen and (max-width: $breakpoint) {
+        left: -20px;
+    }
+
     & img {
+        display: flex;
         width: 122px;
         height: 40px;
-        margin-top: 50px;
-        margin-bottom: 30px;
+        margin: 50px auto 30px auto;
+        @media screen and (max-width: $breakpoint) {
+            margin-top: 65px;
+            margin-bottom: 10px;
+        }
     }
     & p {
         color: white;
         font-size: 24px;
+        @media screen and (max-width: $breakpoint) {
+            font-size: 12px;
+            width: 97px;
+            margin: auto;
+        }
     }
 }

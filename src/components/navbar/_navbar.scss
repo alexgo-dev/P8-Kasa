@@ -9,7 +9,8 @@ nav {
         color: $color-primary;
         font-size: 24px;
         @media screen and (max-width: $breakpoint) {
-            font-size: 12px;;
+            font-size: 12px;
+            text-transform: uppercase;
         }
     }
 }
