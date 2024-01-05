@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    gap: 57px;
+    @media screen and (max-width: $breakpoint) {
+        gap: 26px;
+    }
+    & a {
+        text-decoration: none;
+        color: $color-primary;
+        font-size: 24px;
+        @media screen and (max-width: $breakpoint) {
+            font-size: 12px;;
+        }
+    }
+}
