@@ -1,11 +1,14 @@
 footer {
     display: flex;
+    flex: 1;
     position: relative;
     justify-content: center;
     background: black;
     width: 100vw;
     height: 209px;
     left: -100px;
+    top: 90px;
+    bottom: 0px;
     @media screen and (max-width: $breakpoint-t) {
         left: -60px;
     }
