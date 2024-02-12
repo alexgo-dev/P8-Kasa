@@ -6,7 +6,7 @@ nav {
     }
     & a {
         text-decoration: none;
-        color: $color-primary;
+        color: black;
         font-size: 24px;
         @media screen and (max-width: $breakpoint) {
             font-size: 12px;
