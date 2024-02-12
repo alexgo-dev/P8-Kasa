@@ -10,7 +10,7 @@ export default function Banner() {
             <div className="banner">
                 <div className="banner__overlay"></div>
                 <img src={Image} alt="bannière" />
-                <p>Chez vous, partout et ailleurs</p>
+                <p>Chez vous, <br />partout et ailleurs</p>
             </div>
         )
     } else if (location.pathname === "/about") {

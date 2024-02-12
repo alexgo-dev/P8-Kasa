@@ -11,9 +11,9 @@ export default function Collapse(props) {
     };
 
     const isLogementPage = location.pathname.startsWith("/logement/");
-    const paddingValue = isLogementPage ? "0px" : "0px 100px";
-    const widthValue = isLogementPage ? "100%" : "86%";
-
+    const paddingValue = isLogementPage ? "0px" : undefined;
+    const widthValue = isLogementPage ? "100%" : undefined;
+    
     return (
         <div className="collapsePadding" style={{ padding: paddingValue, width: widthValue }}>
             <div className={`collapse ${isOpen ? 'collapse__dropdown--open' : ''}`}>

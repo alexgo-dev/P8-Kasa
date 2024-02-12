@@ -37,9 +37,9 @@ export default function Slideshow() {
             }
         }
 
-        displaySlide(); // Use displaySlide function
+        displaySlide();
 
-    }, [article.pictures.length, displaySlide]); // Include displaySlide in the dependency array
+    });
 
     if (!article) {
         return <div>Logement introuvable</div>;

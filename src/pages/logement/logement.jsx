@@ -51,7 +51,7 @@ export default function Logement() {
                     <div className='information__description'>
                         <Collapse title="Description" content={article.description} />
                     </div>
-                    <div className='information__equipement'>
+                    <div className='information__equipment'>
                         <Collapse title="Equipment" content={equipments} />
                     </div>
                 </div>
