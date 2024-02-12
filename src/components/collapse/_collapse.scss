@@ -1,7 +1,6 @@
 .collapsePadding {
     padding-left: 110px;
     padding-right: 110px;
-    width: 100%;
     @media screen and (max-width: $breakpoint) {
         padding: 0px !important;
     }
